@@ -279,3 +279,32 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+/* Media Queries */
+@media only screen and (min-width: 0px) {
+  #restaurants-list li {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 714px) {
+  #restaurants-list li {
+    max-width: 45%;
+  }
+  #restaurant-img {
+    margin-top: -40%;
+  }
+  .inside .restaurant-details,
+  .reviews-details {
+    flex-direction: row;
+  }
+  .inside #map-container {
+    width: 50%;
+  }
+  .inside .restaurant-address-hours {
+    width: 48%;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  #restaurants-list li {
+    max-width: 300px;
+  }
+}
