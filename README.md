@@ -8,9 +8,8 @@ This is an app that helps you locate restaurant reviews by location and food cat
 
 To try this application, download and open.
 
-## Leaflet.js and Mapbox:
-
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
+## Thank you:
+Thank you to Udacity and the developers who helped design the template of this project.
 
 ### Note about ES6
 
